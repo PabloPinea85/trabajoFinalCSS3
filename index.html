@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Colección de Tarjetas Pokémon</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Mi Colección de Tarjetas Pokémon</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#galeria">Galería de Tarjetas</a></li>
+          <li><a href="#detalles">Detalles de Tarjeta</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <h2>Sobre Mi Colección</h2>
+      <p>
+        He sido un coleccionista de tarjetas Pokémon desde mi infancia. Aquí
+        comparto algunas de mis cartas favoritas.
+      </p>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería de Tarjetas</h2>
+      <div class="gallery-grid">
+        <div class="card">
+          <img
+            src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/6420b-pikachu-sentado-png.png?resize=450%2C450&ssl=1"
+            alt="Tarjeta Pikachu"
+          />
+          <h3>Pikachu</h3>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png"
+            alt="Tarjeta Charizard"
+          />
+          <h3>Charizard</h3>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.pngmart.com/files/11/Pokemon-Bulbasaur-PNG-File.png"
+            alt="Tarjeta Bulbasaur"
+          />
+          <h3>Bulbasaur</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="detalles">
+      <h2>Detalles de Tarjeta</h2>
+      <p>
+        Selecciona una tarjeta de la galería para ver más detalles sobre ella.
+      </p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" />
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" />
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Pablo Pinea. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
